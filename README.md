@@ -23,7 +23,7 @@ Minimum requirements – To run the SDK, your system will require **PHP >= 7.4**
 // Require the Composer autoloader.
 require 'vendor/autoload.php';
 
-use Jackie-source\WhatsAppCloudApi\WhatsAppCloudApi;
+use JackieSource\WhatsAppCloudApi\WhatsAppCloudApi;
 
 // Instantiate the WhatsAppCloudApi super class.
 $whatsapp_cloud_api = new WhatsAppCloudApi([
@@ -69,7 +69,7 @@ You also can build templates with parameters:
 ```php
 <?php
 
-use Jackie-source\WhatsAppCloudApi\Message\Template\Component;
+use JackieSource\WhatsAppCloudApi\Message\Template\Component;
 
 $component_header = [];
 
