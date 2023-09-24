@@ -1,5 +1,5 @@
 {
-    "name": "netflie/whatsapp-cloud-api",
+    "name": "jackie-source/whatsapp-cloud-api",
     "description": "The first PHP SDK to send and receive messages using a cloud-hosted version of the WhatsApp Business Platform",
     "type": "libray",
     "authors": [
