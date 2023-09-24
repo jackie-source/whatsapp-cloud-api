@@ -1,22 +1,22 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Tests\Unit;
+namespace JackieSource\WhatsAppCloudApi\Tests\Unit;
 
 use GuzzleHttp\Psr7;
-use Netflie\WhatsAppCloudApi\Client;
-use Netflie\WhatsAppCloudApi\Http\ClientHandler;
-use Netflie\WhatsAppCloudApi\Http\RawResponse;
-use Netflie\WhatsAppCloudApi\Message\Contact\ContactName;
-use Netflie\WhatsAppCloudApi\Message\Contact\Phone;
-use Netflie\WhatsAppCloudApi\Message\Contact\PhoneType;
-use Netflie\WhatsAppCloudApi\Message\Media\LinkID;
-use Netflie\WhatsAppCloudApi\Message\Media\MediaObjectID;
-use Netflie\WhatsAppCloudApi\Message\OptionsList\Action;
-use Netflie\WhatsAppCloudApi\Message\OptionsList\Row;
-use Netflie\WhatsAppCloudApi\Message\OptionsList\Section;
-use Netflie\WhatsAppCloudApi\Message\Template\Component;
-use Netflie\WhatsAppCloudApi\Response\ResponseException;
-use Netflie\WhatsAppCloudApi\WhatsAppCloudApi;
+use JackieSource\WhatsAppCloudApi\Client;
+use JackieSource\WhatsAppCloudApi\Http\ClientHandler;
+use JackieSource\WhatsAppCloudApi\Http\RawResponse;
+use JackieSource\WhatsAppCloudApi\Message\Contact\ContactName;
+use JackieSource\WhatsAppCloudApi\Message\Contact\Phone;
+use JackieSource\WhatsAppCloudApi\Message\Contact\PhoneType;
+use JackieSource\WhatsAppCloudApi\Message\Media\LinkID;
+use JackieSource\WhatsAppCloudApi\Message\Media\MediaObjectID;
+use JackieSource\WhatsAppCloudApi\Message\OptionsList\Action;
+use JackieSource\WhatsAppCloudApi\Message\OptionsList\Row;
+use JackieSource\WhatsAppCloudApi\Message\OptionsList\Section;
+use JackieSource\WhatsAppCloudApi\Message\Template\Component;
+use JackieSource\WhatsAppCloudApi\Response\ResponseException;
+use JackieSource\WhatsAppCloudApi\WhatsAppCloudApi;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 use Prophecy\PhpUnit\ProphecyTrait;

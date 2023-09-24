@@ -1,8 +1,8 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Tests\Unit\WebHook;
+namespace JackieSource\WhatsAppCloudApi\Tests\Unit\WebHook;
 
-use Netflie\WhatsAppCloudApi\WebHook\VerificationRequest;
+use JackieSource\WhatsAppCloudApi\WebHook\VerificationRequest;
 use PHPUnit\Framework\TestCase;
 
 /**

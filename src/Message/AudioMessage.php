@@ -1,8 +1,8 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Message;
+namespace JackieSource\WhatsAppCloudApi\Message;
 
-use Netflie\WhatsAppCloudApi\Message\Media\MediaID;
+use JackieSource\WhatsAppCloudApi\Message\Media\MediaID;
 
 final class AudioMessage extends Message
 {

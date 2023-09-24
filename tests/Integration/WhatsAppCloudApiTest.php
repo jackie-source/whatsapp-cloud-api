@@ -1,18 +1,18 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Tests\Integration;
+namespace JackieSource\WhatsAppCloudApi\Tests\Integration;
 
-use Netflie\WhatsAppCloudApi\Message\Contact\ContactName;
-use Netflie\WhatsAppCloudApi\Message\Contact\Phone;
-use Netflie\WhatsAppCloudApi\Message\Contact\PhoneType;
-use Netflie\WhatsAppCloudApi\Message\Media\LinkID;
-use Netflie\WhatsAppCloudApi\Message\Media\MediaObjectID;
-use Netflie\WhatsAppCloudApi\Message\OptionsList\Action;
-use Netflie\WhatsAppCloudApi\Message\OptionsList\Row;
-use Netflie\WhatsAppCloudApi\Message\OptionsList\Section;
-use Netflie\WhatsAppCloudApi\Message\Template\Component;
-use Netflie\WhatsAppCloudApi\Tests\WhatsAppCloudApiTestConfiguration;
-use Netflie\WhatsAppCloudApi\WhatsAppCloudApi;
+use JackieSource\WhatsAppCloudApi\Message\Contact\ContactName;
+use JackieSource\WhatsAppCloudApi\Message\Contact\Phone;
+use JackieSource\WhatsAppCloudApi\Message\Contact\PhoneType;
+use JackieSource\WhatsAppCloudApi\Message\Media\LinkID;
+use JackieSource\WhatsAppCloudApi\Message\Media\MediaObjectID;
+use JackieSource\WhatsAppCloudApi\Message\OptionsList\Action;
+use JackieSource\WhatsAppCloudApi\Message\OptionsList\Row;
+use JackieSource\WhatsAppCloudApi\Message\OptionsList\Section;
+use JackieSource\WhatsAppCloudApi\Message\Template\Component;
+use JackieSource\WhatsAppCloudApi\Tests\WhatsAppCloudApiTestConfiguration;
+use JackieSource\WhatsAppCloudApi\WhatsAppCloudApi;
 use PHPUnit\Framework\TestCase;
 
 /**

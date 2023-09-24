@@ -1,6 +1,6 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Message\Contact;
+namespace JackieSource\WhatsAppCloudApi\Message\Contact;
 
 use MyCLabs\Enum\Enum;
 

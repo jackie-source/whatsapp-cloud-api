@@ -1,6 +1,6 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\WebHook\Notification;
+namespace JackieSource\WhatsAppCloudApi\WebHook\Notification;
 
 final class Location extends MessageNotification
 {

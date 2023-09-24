@@ -1,6 +1,6 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Message;
+namespace JackieSource\WhatsAppCloudApi\Message;
 
 abstract class Message
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Message;
+namespace JackieSource\WhatsAppCloudApi\Message;
 
-use Netflie\WhatsAppCloudApi\Message\OptionsList\Action;
+use JackieSource\WhatsAppCloudApi\Message\OptionsList\Action;
 
 final class OptionsListMessage extends Message
 {

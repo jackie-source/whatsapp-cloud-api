@@ -1,10 +1,10 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi;
+namespace JackieSource\WhatsAppCloudApi;
 
-use Netflie\WhatsAppCloudApi\WebHook\Notification;
-use Netflie\WhatsAppCloudApi\WebHook\NotificationFactory;
-use Netflie\WhatsAppCloudApi\WebHook\VerificationRequest;
+use JackieSource\WhatsAppCloudApi\WebHook\Notification;
+use JackieSource\WhatsAppCloudApi\WebHook\NotificationFactory;
+use JackieSource\WhatsAppCloudApi\WebHook\VerificationRequest;
 
 class WebHook
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Tests\Integration;
+namespace JackieSource\WhatsAppCloudApi\Tests\Integration;
 
-use Netflie\WhatsAppCloudApi\Client;
-use Netflie\WhatsAppCloudApi\Message\TextMessage;
-use Netflie\WhatsAppCloudApi\Request;
-use Netflie\WhatsAppCloudApi\Tests\WhatsAppCloudApiTestConfiguration;
-use Netflie\WhatsAppCloudApi\WhatsAppCloudApi;
+use JackieSource\WhatsAppCloudApi\Client;
+use JackieSource\WhatsAppCloudApi\Message\TextMessage;
+use JackieSource\WhatsAppCloudApi\Request;
+use JackieSource\WhatsAppCloudApi\Tests\WhatsAppCloudApiTestConfiguration;
+use JackieSource\WhatsAppCloudApi\WhatsAppCloudApi;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,8 +1,8 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Request\MessageRequest;
+namespace JackieSource\WhatsAppCloudApi\Request\MessageRequest;
 
-use Netflie\WhatsAppCloudApi\Request\MessageRequest;
+use JackieSource\WhatsAppCloudApi\Request\MessageRequest;
 
 final class RequestAudioMessage extends MessageRequest
 {

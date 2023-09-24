@@ -1,6 +1,6 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Http;
+namespace JackieSource\WhatsAppCloudApi\Http;
 
 final class RawResponse
 {

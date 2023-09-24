@@ -1,9 +1,9 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Tests\Unit\WebHook;
+namespace JackieSource\WhatsAppCloudApi\Tests\Unit\WebHook;
 
-use Netflie\WhatsAppCloudApi\WebHook\Notification;
-use Netflie\WhatsAppCloudApi\WebHook\NotificationFactory;
+use JackieSource\WhatsAppCloudApi\WebHook\Notification;
+use JackieSource\WhatsAppCloudApi\WebHook\NotificationFactory;
 use PHPUnit\Framework\TestCase;
 
 /**

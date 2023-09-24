@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Netflie\\WhatsAppCloudApi\\": "src"
+            "JackieSource\\WhatsAppCloudApi\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Netflie\\WhatsAppCloudApi\\Tests\\": "tests"
+            "JackieSource\\WhatsAppCloudApi\\Tests\\": "tests"
         }
     },
     "scripts": {

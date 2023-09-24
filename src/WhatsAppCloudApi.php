@@ -1,12 +1,12 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi;
+namespace JackieSource\WhatsAppCloudApi;
 
-use Netflie\WhatsAppCloudApi\Message\Contact\ContactName;
-use Netflie\WhatsAppCloudApi\Message\Contact\Phone;
-use Netflie\WhatsAppCloudApi\Message\Media\MediaID;
-use Netflie\WhatsAppCloudApi\Message\OptionsList\Action;
-use Netflie\WhatsAppCloudApi\Message\Template\Component;
+use JackieSource\WhatsAppCloudApi\Message\Contact\ContactName;
+use JackieSource\WhatsAppCloudApi\Message\Contact\Phone;
+use JackieSource\WhatsAppCloudApi\Message\Media\MediaID;
+use JackieSource\WhatsAppCloudApi\Message\OptionsList\Action;
+use JackieSource\WhatsAppCloudApi\Message\Template\Component;
 
 class WhatsAppCloudApi
 {

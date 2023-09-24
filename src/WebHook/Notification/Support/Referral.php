@@ -1,6 +1,6 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\WebHook\Notification\Support;
+namespace JackieSource\WhatsAppCloudApi\WebHook\Notification\Support;
 
 final class Referral
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi;
+namespace JackieSource\WhatsAppCloudApi;
 
-use Netflie\WhatsAppCloudApi\Http\ClientHandler;
-use Netflie\WhatsAppCloudApi\Http\GuzzleClientHandler;
+use JackieSource\WhatsAppCloudApi\Http\ClientHandler;
+use JackieSource\WhatsAppCloudApi\Http\GuzzleClientHandler;
 
 class Client
 {
@@ -40,7 +40,7 @@ class Client
      *
      * @return Response Raw response from the server.
      *
-     * @throws Netflie\WhatsAppCloudApi\Response\ResponseException
+     * @throws JackieSource\WhatsAppCloudApi\Response\ResponseException
      */
     public function sendMessage(Request\RequestWithBody $request): Response
     {
@@ -70,7 +70,7 @@ class Client
      *
      * @return Response Raw response from the server.
      *
-     * @throws Netflie\WhatsAppCloudApi\Response\ResponseException
+     * @throws JackieSource\WhatsAppCloudApi\Response\ResponseException
      */
     public function uploadMedia(Request\MediaRequest\UploadMediaRequest $request): Response
     {
@@ -100,7 +100,7 @@ class Client
      *
      * @return Response Raw response from the server.
      *
-     * @throws Netflie\WhatsAppCloudApi\Response\ResponseException
+     * @throws JackieSource\WhatsAppCloudApi\Response\ResponseException
      */
     public function downloadMedia(Request\MediaRequest\DownloadMediaRequest $request): Response
     {

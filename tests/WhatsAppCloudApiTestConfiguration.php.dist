@@ -1,6 +1,6 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Tests;
+namespace JackieSource\WhatsAppCloudApi\Tests;
 
 class WhatsAppCloudApiTestConfiguration {
 

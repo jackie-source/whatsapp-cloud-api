@@ -1,4 +1,4 @@
-![](https://netflie.es/wp-content/uploads/2022/05/whatsapp_cloud_api_banner-1.png)
+![](https://jackie-source.es/wp-content/uploads/2022/05/whatsapp_cloud_api_banner-1.png)
 
 
 ## What It Does
@@ -12,7 +12,7 @@ Please create and configure your Facebook WhatsApp application following the ["G
 Minimum requirements – To run the SDK, your system will require **PHP >= 7.4** with a recent version of **CURL >=7.19.4** compiled with OpenSSL and zlib.
 
 ## Installation
-```composer require netflie/whatsapp-cloud-api ```
+```composer require jackie-source/whatsapp-cloud-api ```
 
 ## Quick Examples
 
@@ -23,7 +23,7 @@ Minimum requirements – To run the SDK, your system will require **PHP >= 7.4**
 // Require the Composer autoloader.
 require 'vendor/autoload.php';
 
-use Netflie\WhatsAppCloudApi\WhatsAppCloudApi;
+use Jackie-source\WhatsAppCloudApi\WhatsAppCloudApi;
 
 // Instantiate the WhatsAppCloudApi super class.
 $whatsapp_cloud_api = new WhatsAppCloudApi([
@@ -40,8 +40,8 @@ You can send documents in two ways: by uploading a file to the WhatsApp Cloud se
 ```php
 <?php
 
-use Netflie\WhatsAppCloudApi\Message\Media\LinkID;
-use Netflie\WhatsAppCloudApi\Message\Media\MediaObjectID;
+use JackieSource\WhatsAppCloudApi\Message\Media\LinkID;
+use JackieSource\WhatsAppCloudApi\Message\Media\MediaObjectID;
 
 $document_id = '341476474779872';
 $document_name = 'whatsapp-cloud-api-from-id.pdf';
@@ -52,7 +52,7 @@ $media_id = new MediaObjectID($document_id);
 $whatsapp_cloud_api->sendDocument('34676104574', $media_id, $document_name, $document_caption);
 
 // Or
-$document_link = 'https://netflie.es/wp-content/uploads/2022/05/image.png';
+$document_link = 'https://jackie-source.es/wp-content/uploads/2022/05/image.png';
 $link_id = new LinkID($document_link);
 $whatsapp_cloud_api->sendDocument('34676104574', $link_id, $document_name, $document_caption);
 ```
@@ -69,7 +69,7 @@ You also can build templates with parameters:
 ```php
 <?php
 
-use Netflie\WhatsAppCloudApi\Message\Template\Component;
+use Jackie-source\WhatsAppCloudApi\Message\Template\Component;
 
 $component_header = [];
 
@@ -113,9 +113,9 @@ $whatsapp_cloud_api->sendTemplate('34676104574', 'sample_issue_resolution', 'en_
 ```php
 <?php
 
-use Netflie\WhatsAppCloudApi\Message\Media\LinkID;
+use JackieSource\WhatsAppCloudApi\Message\Media\LinkID;
 
-$audio_link = 'https://netflie.es/wp-content/uploads/2022/05/file_example_OOG_1MG.ogg';
+$audio_link = 'https://jackie-source.es/wp-content/uploads/2022/05/file_example_OOG_1MG.ogg';
 $link_id = new LinkID($audio_link);
 $whatsapp_cloud_api->sendAudio('34676104574', $link_id);
 ```
@@ -124,8 +124,8 @@ $whatsapp_cloud_api->sendAudio('34676104574', $link_id);
 ```php
 <?php
 
-use Netflie\WhatsAppCloudApi\Message\Media\LinkID;
-use Netflie\WhatsAppCloudApi\Message\Media\MediaObjectID;
+use JackieSource\WhatsAppCloudApi\Message\Media\LinkID;
+use JackieSource\WhatsAppCloudApi\Message\Media\MediaObjectID;
 
 $link_id = new LinkID('http(s)://image-url');
 $whatsapp_cloud_api->sendImage('<destination-phone-number>', $link_id);
@@ -140,8 +140,8 @@ $whatsapp_cloud_api->sendImage('<destination-phone-number>', $media_id);
 ```php
 <?php
 
-use Netflie\WhatsAppCloudApi\Message\Media\LinkID;
-use Netflie\WhatsAppCloudApi\Message\Media\MediaObjectID;
+use JackieSource\WhatsAppCloudApi\Message\Media\LinkID;
+use JackieSource\WhatsAppCloudApi\Message\Media\MediaObjectID;
 
 $link_id = new LinkID('http(s)://video-url');
 $whatsapp_cloud_api->sendVideo('<destination-phone-number>', $link_id, '<video-caption>');
@@ -159,8 +159,8 @@ Stickers sample: https://github.com/WhatsApp/stickers
 ```php
 <?php
 
-use Netflie\WhatsAppCloudApi\Message\Media\LinkID;
-use Netflie\WhatsAppCloudApi\Message\Media\MediaObjectID;
+use JackieSource\WhatsAppCloudApi\Message\Media\LinkID;
+use JackieSource\WhatsAppCloudApi\Message\Media\MediaObjectID;
 
 $link_id = new LinkID('http(s)://sticker-url');
 $whatsapp_cloud_api->sendSticker('<destination-phone-number>', $link_id);
@@ -184,9 +184,9 @@ $whatsapp_cloud_api->sendLocation('<destination-phone-number>', $longitude, $lat
 ```php
 <?php
 
-use Netflie\WhatsAppCloudApi\Message\Contact\ContactName;
-use Netflie\WhatsAppCloudApi\Message\Contact\Phone;
-use Netflie\WhatsAppCloudApi\Message\Contact\PhoneType;
+use JackieSource\WhatsAppCloudApi\Message\Contact\ContactName;
+use JackieSource\WhatsAppCloudApi\Message\Contact\Phone;
+use JackieSource\WhatsAppCloudApi\Message\Contact\PhoneType;
 
 $name = new ContactName('Adams', 'Smith');
 $phone = new Phone('34676204577', PhoneType::CELL());
@@ -199,9 +199,9 @@ $whatsapp_cloud_api->sendContact('<destination-phone-number>', $name, $phone);
 ```php
 <?php
 
-use Netflie\WhatsAppCloudApi\Message\OptionsList\Row;
-use Netflie\WhatsAppCloudApi\Message\OptionsList\Section;
-use Netflie\WhatsAppCloudApi\Message\OptionsList\Action;
+use JackieSource\WhatsAppCloudApi\Message\OptionsList\Row;
+use JackieSource\WhatsAppCloudApi\Message\OptionsList\Section;
+use JackieSource\WhatsAppCloudApi\Message\OptionsList\Action;
 
 $rows = [
     new Row('1', '⭐️', "Experience wasn't good enough"),
@@ -254,7 +254,7 @@ try {
         'Hey there! I\'m using WhatsApp Cloud API. Visit https://www.netflie.es',
         true
     );
-} catch (\Netflie\WhatsAppCloudApi\Response\ResponseException $e) {
+} catch (\JackieSource\WhatsAppCloudApi\Response\ResponseException $e) {
     print_r($e->response()); // You can still check the Response returned from Meta servers
 }
 ```
@@ -268,7 +268,7 @@ Add your webhook in your Meta App dashboard. You need to verify your webhook:
 <?php
 require 'vendor/autoload.php';
 
-use Netflie\WhatsAppCloudApi\WebHook;
+use JackieSource\WhatsAppCloudApi\WebHook;
 
 // Instantiate the WhatsAppCloudApi super class.
 $webhook = new WebHook();
@@ -285,7 +285,7 @@ Webhook is now verified, you will start receiving notifications every time your 
 require 'vendor/autoload.php';
 define('STDOUT', fopen('php://stdout', 'w'));
 
-use Netflie\WhatsAppCloudApi\WebHook;
+use JackieSource\WhatsAppCloudApi\WebHook;
 
 
 $payload = file_get_contents('php://input');
@@ -297,7 +297,7 @@ $webhook = new WebHook();
 fwrite(STDOUT, print_r($webhook->read(json_decode($payload, true)), true) . "\n");
 ```
 
-The `Webhook::read` function will return a `Notification` instance. Please, [explore](https://github.com/netflie/whatsapp-cloud-api/tree/main/src/WebHook/Notification "explore") the different notifications availables.
+The `Webhook::read` function will return a `Notification` instance. Please, [explore](https://github.com/jackie-source/whatsapp-cloud-api/tree/main/src/WebHook/Notification "explore") the different notifications availables.
 
 ### Mark a message as read
 When you receive an incoming message from Webhooks, you can mark the message as read by changing its status to read. Messages marked as read display two blue check marks alongside their timestamp.
@@ -329,16 +329,16 @@ $whatsapp_cloud_api->markMessageAsRead('<message-id>');
 - Webhook notifications
 
 ## Getting Help
-- Ask a question on the [Discussions forum](https://github.com/netflie/whatsapp-cloud-api/discussions "Discussions forum")
-- To report bugs, please [open an issue](https://github.com/netflie/whatsapp-cloud-api/issues/new/choose "open an issue")
+- Ask a question on the [Discussions forum](https://github.com/jackie-source/whatsapp-cloud-api/discussions "Discussions forum")
+- To report bugs, please [open an issue](https://github.com/jackie-source/whatsapp-cloud-api/issues/new/choose "open an issue")
 
 ## Migration to v2
 
-Please see [UPGRADE](https://github.com/netflie/whatsapp-cloud-api/blob/main/UPGRADE.md "UPGRADE") for more information on how to upgrade to v2.
+Please see [UPGRADE](https://github.com/jackie-source/whatsapp-cloud-api/blob/main/UPGRADE.md "UPGRADE") for more information on how to upgrade to v2.
 
 ## Changelog
 
-Please see [CHANGELOG](https://github.com/netflie/whatsapp-cloud-api/blob/main/CHANGELOG.md "CHANGELOG") for more information what has changed recently.
+Please see [CHANGELOG](https://github.com/jackie-source/whatsapp-cloud-api/blob/main/CHANGELOG.md "CHANGELOG") for more information what has changed recently.
 
 ## Testing
 ```php
@@ -350,11 +350,11 @@ composer integration-test
 ```
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/netflie/.github/blob/master/CONTRIBUTING.md "CONTRIBUTING") for details.
+Please see [CONTRIBUTING](https://github.com/jackie-source/.github/blob/master/CONTRIBUTING.md "CONTRIBUTING") for details.
 
 ## License
 
-The MIT License (MIT). Please see License File for more information. Please see [License file](https://github.com/netflie/whatsapp-cloud-api/blob/main/LICENSE "License file") for more information.
+The MIT License (MIT). Please see License File for more information. Please see [License file](https://github.com/jackie-source/whatsapp-cloud-api/blob/main/LICENSE "License file") for more information.
 
 ## Disclaimer
 

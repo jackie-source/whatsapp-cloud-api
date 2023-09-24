@@ -1,6 +1,6 @@
 <?php
 
-namespace Netflie\WhatsAppCloudApi\Message\OptionsList;
+namespace JackieSource\WhatsAppCloudApi\Message\OptionsList;
 
 class Section
 {
